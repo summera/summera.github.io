@@ -7,7 +7,6 @@ body {
 
 a {
     color: $cloudy;
-    font-weight: bold;
     text-decoration: none;
 
     &:hover {
@@ -78,8 +77,8 @@ strong {
 }
 
 .logo {
-    font-size: 50px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 400;
     color: $iron;
     display: block;
 }
@@ -126,7 +125,7 @@ strong {
 }
 
 .page-title__text {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 70px;
 }
 
@@ -155,8 +154,8 @@ strong {
 }
 
 .post-teaser {
-    font-weight: 700;
     margin-bottom: 35px;
+    font-weight: 400;
 }
 
 .post-teaser__title {
@@ -173,7 +172,7 @@ strong {
 
 .empty-post-list {
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 400;
     color: $iron;
     text-align: center;
 }
@@ -203,7 +202,7 @@ strong {
 
 .categories__item {
     display: inline-block;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 18px;
 }
 
