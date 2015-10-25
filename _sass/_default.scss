@@ -9,8 +9,8 @@ a {
     color: $cloudy;
     text-decoration: none;
 
-    &:hover {
-
+    &:hover, &:hover span {
+        color: $cloudy_contrast !important;
     }
 }
 
