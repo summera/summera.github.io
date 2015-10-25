@@ -26,6 +26,10 @@ img {
     max-width: 100%;
 }
 
+.glitch {
+    position: inherit !important;
+}
+
 blockquote {
     letter-spacing: 3px;
     margin:0px;
@@ -180,10 +184,16 @@ strong {
 }
 
 /* =Explore */
+/* Sticky footer styling may need to change here. */
 .explore {
     text-align: center;
     color: $cloudy;
     margin-top: 140px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0;
 }
 
 .explore__devider {
