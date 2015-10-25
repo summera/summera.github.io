@@ -161,6 +161,7 @@ strong {
 .post-teaser__title {
     font-size: 22px;
     color: $iron;
+    display: inline-block;
 }
 
 .post-teaser__date {
@@ -168,6 +169,7 @@ strong {
     float: right;
     vertical-align: middle;
     color: $cloudy;
+    display: inline-block;
 }
 
 .empty-post-list {
