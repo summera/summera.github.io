@@ -31,7 +31,7 @@ Below is a simplified diagram of our infrastructure centered around the interact
 
 1. Records are created, updated, and deleted from our main data store (Postgres in this case).
 2. After the transaction is committed to the main data store, a background job to perform the corresponding operation in Elasticsearch is enqueued (into Redis in this case).
-3. A job to index/delete a record in Elasticsearch is popped off the queue to be processed in the background (by Sidekiq in this case).
+3. A job to index/delete a record in Elasticsearch is popped off the queue to be processed in the background (by [Sidekiq](https://github.com/mperham/sidekiq) in this case).
 4. If this is an index operation, the background job will query the main data store for the new or updated data.
 5. The index or delete operation is performed on Elasticsearch
 
