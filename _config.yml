@@ -14,7 +14,7 @@ author:
 
   disqus: arisummerblog
 
-# google_analytics: 'UA-XXXXXXXX-X'
+google_analytics: 'UA-80321603-1'
 
 # Build settings
 markdown: kramdown
