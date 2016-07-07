@@ -2,7 +2,7 @@
 layout: post
 title:  "Reindexing Elasticsearch with Zero Downtime"
 subtitle: ""
-date:   2016-5-30 10:00:00
+date:   2016-7-04 13:15:00
 categories: [infrastructure]
 ---
 
