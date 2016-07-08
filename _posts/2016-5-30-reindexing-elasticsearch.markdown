@@ -4,6 +4,7 @@ title:  "Reindexing Elasticsearch with Zero Downtime"
 subtitle: ""
 date:   2016-7-04 13:15:00
 categories: [infrastructure]
+og_image: "https://dl.dropboxusercontent.com/u/18426171/elasticsearch_logo.png"
 ---
 
 Elasticsearch! At [SnApp](https://snapprealestate.com/) we use Elasticsearch for our real estate searches.
