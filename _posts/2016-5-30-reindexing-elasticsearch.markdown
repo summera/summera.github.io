@@ -7,8 +7,9 @@ categories: [infrastructure]
 og_image: "https://dl.dropboxusercontent.com/u/18426171/elasticsearch_logo.png"
 ---
 
-Elasticsearch! At [SnApp](https://snapprealestate.com/) we use Elasticsearch for our real estate searches.
-If you're using Elasticsearch, chances are high that you'll run into a situation where you'll want to make changes to existing fields.
+Elasticsearch! At [SnApp](https://snapprealestate.com/) we use [Elasticsearch](https://www.elastic.co/products/elasticsearch)
+for our real estate searches. If you're using Elasticsearch, chances are high that you'll run into a situation where you'll
+want to make changes to existing fields.
 
 If you nail the mapping on the first go, props 🙌, that's hard to do. Once you put your cluster out into the wild to handle live searches,
 you'll get a better idea of how your data will need to be mapped. Or maybe requirements change. Whatever the reason, you can easily
@@ -288,8 +289,8 @@ I ran into an issue using this script on AWS Elasticsearch service. AWS would th
 It turns out that the [scroll ID length grows with the number of shards in your cluster](https://discuss.elastic.co/t/ridiculously-long-scroll-id/12913/3)
 and the ID was too large to be a URL param.
 
-Fortunately the Elasticsearch API allows you to send the scroll ID in the request body. However, `rest-client`, which the es-reindex
-script uses to make HTTP requests, does not allow you to easily add data to the body of a GET request from what I could gather. So I used
+Fortunately the Elasticsearch API allows you to send the scroll ID in the request body. However, [rest-client](https://github.com/rest-client/rest-client),
+which the es-reindex script uses to make HTTP requests, does not allow you to easily add data to the body of a GET request from what I could gather. So I used
 Net HTTP (which should probably be used for all requests in the script)
 for these requests. You can find my changes on [github](https://github.com/summera/es-reindex/commit/f09594fa5b5746866dad8bfdbcc5f7f7de4ae11f).
 
