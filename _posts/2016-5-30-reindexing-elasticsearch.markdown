@@ -5,6 +5,7 @@ subtitle: ""
 date:   2016-7-04 13:15:00
 categories: [infrastructure]
 og_image: "https://dl.dropboxusercontent.com/u/18426171/elasticsearch_logo.png"
+tags: [elasticsearch, ruby, ruby on rails, rails, reindex, mapping, elasticsearch-rails, snapp real estate, aws, downtime]
 ---
 
 Elasticsearch! At [SnApp](https://snapprealestate.com/) we use [Elasticsearch](https://www.elastic.co/products/elasticsearch)
