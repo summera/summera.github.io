@@ -5,6 +5,5 @@ subtitle:
 permalink: /about/
 ---
 
-Currently working on a startup based in Los Angeles called [SnApp](http://snapprealestate.com/).
-We build mobile apps for small businesses.
+Software engineer at [Calendy](https://www.calendy.co/).
 I <i class='fa fa-heart'></i> building software and learning new things.
