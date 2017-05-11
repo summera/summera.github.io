@@ -4,7 +4,7 @@ title:  "Reindexing Elasticsearch with Zero Downtime"
 subtitle: ""
 date:   2016-7-04 13:15:00
 categories: [infrastructure]
-og_image: "https://dl.dropboxusercontent.com/u/18426171/elasticsearch_logo.png"
+og_image: "https://raw.githubusercontent.com/summera/blog_media/master/reindexing_elasticsearch/elasticsearch_logo.png"
 tags: [elasticsearch, ruby, ruby on rails, rails, reindex, mapping, elasticsearch-rails, snapp real estate, aws, downtime]
 ---
 
@@ -30,7 +30,7 @@ bound to run into something unexpected during the process.
 
 # Architecture
 Below is a simplified diagram of our infrastructure centered around the interaction with Elasticsearch.
-![infrastructure-diagram](https://dl.dropboxusercontent.com/u/18426171/ES%20Architecture.png)
+![infrastructure-diagram](https://raw.githubusercontent.com/summera/blog_media/master/reindexing_elasticsearch/es_architecture.png)
 
 1. Records are created, updated, and deleted from our main data store (Postgres in this case).
 2. After the transaction is committed to the main data store, a background job to perform the corresponding operation in Elasticsearch is enqueued (into Redis in this case).
