@@ -5,5 +5,5 @@ subtitle:
 permalink: /about/
 ---
 
-Software engineer at [Calendy](https://www.calendy.co/).
+Lead software engineer at [Loomly](https://www.loomly.com).
 I <i class='fa fa-heart'></i> building software and learning new things.
